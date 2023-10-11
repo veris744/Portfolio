@@ -35,12 +35,12 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --pink: #91087e;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
 
-    --container-max-width: 1180px;
+    --container-max-width: 1350px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
     --container-small-width: 500px;
@@ -404,8 +404,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.3)), 
+        url('./images/menu1.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -440,6 +440,18 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+.work__pers {
+    margin-right: 5rem;
+}
+
+.work__empty {
+    padding-bottom: 20rem;
+}
+
+.work__space {
+    padding-right: 10rem;
+}
+
 .work__box {
     display: flex;
     align-items: center;
@@ -453,7 +465,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: 2rem;
 }
 
 @media(max-width: 500px) {
@@ -475,6 +487,7 @@ body:not(.user-is-tabbing) a:focus {
     /* list-style-type: square; */
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
+    margin-left: 3rem;
 }
 
 .work__code {
