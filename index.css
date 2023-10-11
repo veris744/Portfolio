@@ -175,6 +175,8 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 @media(max-width: 900px) {
@@ -452,6 +454,13 @@ body:not(.user-is-tabbing) a:focus {
     padding-right: 10rem;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 .work__box {
     display: flex;
     align-items: center;
@@ -465,7 +474,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 @media(max-width: 500px) {
